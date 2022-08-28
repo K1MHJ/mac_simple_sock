@@ -1,8 +1,8 @@
 #ifndef SHAPE_H
 #define SHAPE_H
 
-namespace shape {
-
+namespace test {
+int add(int, int);
 class Rectangle {
   public:
     Rectangle(float w, float h);
