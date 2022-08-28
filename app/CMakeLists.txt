@@ -3,5 +3,8 @@ file(GLOB_RECURSE SRC_FILES CONFIGURE_DEPENDS
   ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp
 )
 
-add_executable(program ${SRC_FILES})
+add_executable(program main.cpp)
+add_executable(server server.cpp)
+add_executable(client client.cpp)
+
 target_link_libraries(program PUBLIC test)
